@@ -1,0 +1,8 @@
+__pycache__/
+*.mp3
+*.mp4
+*.part
+*.ytdl
+users.txt
+url_storage.json
+.env
