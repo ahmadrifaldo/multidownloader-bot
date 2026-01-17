@@ -7,7 +7,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMedia
 from dotenv import load_dotenv # Tambahkan ini
 
 # --- KONFIGURASI AMAN ---
-load_dotenv() # Memuat file .env
+# --- KONFIGURASI AMAN ---
+load_dotenv()  # PASTIKAN TULISANNYA dotenv (pake 't', bukan 'l')
 TOKEN = os.getenv('BOT_TOKEN')
 ADMIN_ID = int(os.getenv('ADMIN_ID')) if os.getenv('ADMIN_ID') else 0
 USER_FILE = "users.txt"
