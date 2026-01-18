@@ -6,3 +6,4 @@ __pycache__/
 users.txt
 url_storage.json
 .env
+cookies.txt
